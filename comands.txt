@@ -1,0 +1,3 @@
+la -al
+
+git push -u origin master
