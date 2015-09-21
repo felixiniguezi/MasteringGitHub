@@ -3,3 +3,5 @@ la -al
 git push -u origin master
 
 git pull origin
+
+https://git-scm.com/book/en/v2/Getting-Started-About-Version-Control
