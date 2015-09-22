@@ -5,3 +5,23 @@ git push -u origin master
 git pull origin
 
 https://git-scm.com/book/en/v2/Getting-Started-About-Version-Control
+
+
+set up diffmerge and git
+
+git config --global merge.tool diffmerge
+
+git config --global mergetool.diffmerge.cmd "diffmerge --merge
+--result=\$MERGED \$LOCAL \$BASE \$REMOTE"
+
+git config --global mergetool.diffmerge.trustExitCode true
+
+
+git mergetool
+
+git config --global mergetool.keepBackup false'
+
+git config --global diff.tool diffmerge
+git config --global difftool.diffmerge.cmd "diffmerge \$LOCAL \$REMOTE"
+
+git difftool master~1 foo.rb //exxample
